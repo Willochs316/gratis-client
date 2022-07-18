@@ -24,7 +24,6 @@
   margin-right: auto;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
-  background-image: url("../../client/src/Assets/svgs/Path 1.svg");
   opacity: 1;
   overflow: hidden;
   position: relative;
@@ -39,6 +38,7 @@
   height: 110px;
   font-size: 12px;
   font-weight: lighter;
+  margin: 5.125rem auto 1.5rem auto;
 }
 
 .conatiner .footer-container .svg-container {
@@ -64,7 +64,7 @@
   margin-bottom: 15px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 380px) {
   .metric-container {
     display: flex;
     flex-direction: column;

@@ -1,248 +1,270 @@
-.main-container {
+.about-main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 1153px;
-  height: 100%;
-  margin-top: 110px;
-  overflow: hidden;
+  width: 840px;
+  min-height: 740px;
+  background-image: url('../../../../src/Assets/svgs/Path\ 1.svg');
 }
 
-.main-container .about-container {
+.main-about-conatiner {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 1153px;
-  height: 390px;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  margin: 3.125rem auto 0 auto;
   position: relative;
 }
 
-.main-container .about-container .about_box-1 {
+.main-about-image {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 60%;
-  height: 100%;
-  background-color: #42185e;
-}
-
-.main-container .about-container .about_box-2 {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  width: 40%;
+  width: 100%;
   height: 100%;
   position: relative;
 }
 
-.main-container .about-container .about_box-2 .about_box-3 {
+.about_us {
+  width: 100%;
+  height: 100%;
+}
+
+.main-about-detail-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  position: absolute;
-  bottom: 0;
-  width: 350px;
-  line-height: 25px;
+  justify-content: center;
+  font-size: 11px;
   font-weight: 300;
-  font-size: 12px;
-  font-weight: light;
+  width: 85%;
+  height: 100%;
+  position: relative;
 }
 
-.main-container .about-container .about_box-2 .about_box-3 .ab-text {
-  width: 100%;
-}
-
-.main-container .about-container .about_box-4 {
+.main-about-info {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  width: 614px;
-  height: 140px;
-  padding: 0.75rem 0.5rem;
+  justify-content: flex-start;
+  font-size: 11px;
+  width: 100%;
   position: absolute;
-  left: 360px;
+  right: 230px;
+  top: 32%;
 }
 
-.main-container .about-container .about_box-4 .about {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: center;
-  font-size: 12px;
-  width: 100%;
-  height: 24px;
-}
-
-.main-container .about-container .about_box-4 .about .line {
-  width: 68px;
+.main-about-line {
+  width: 50px;
   height: 2px;
-  color: #ffffff;
+  border: none;
+  margin-right: 4px;
+  background-color: white;
 }
 
-.main-container .about-container .about_box-4 .about .aboutUs {
-  width: 116px;
-  height: 31px;
+.main-aboutUs {
+}
+
+.main-about-content-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 11px;
+  width: 100%;
   font-weight: 400;
-  font-family: Poppins, light;
-  font-size: 18px;
+  position: absolute;
+  right: 177px;
+  top: 37%;
+}
+
+.saas-commerce {
+  font-size: 32px;
+  width: 100%;
+}
+
+.main-about-foot-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  left: 15%;
+  bottom: 0;
+}
+
+.main-foot-title {
+  font-size: 11px;
+  width: 100%;
+}
+
+.main-about-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  width: 700px;
   font-weight: 300;
+  margin: 5.125rem auto 0 auto;
+  margin-left: 100px;
+}
+
+.description {
+  width: 100%;
+}
+
+.description1 {
+  font-weight: 800;
+}
+
+.main-about-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  width: 700px;
+  margin: 3.125rem auto 0 auto;
+  margin-left: 100px;
+  position: relative;
+}
+
+.main-about-pride-box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 11px;
+  width: 100%;
+  position: relative;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 400;
+  width: 100%;
+  position: relative;
+}
+
+.line-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 8px;
+}
+
+.main-about-line-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.about-line-text {
+  font-size: 11px;
   text-transform: uppercase;
 }
 
-.main-container .about-container .about_box-4 .about-info {
+.mission-statement-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  width: 78%;
-  height: 80px;
-  font-weight: 400;
-  font-size: 45px;
-  position: absolute;
-  top: 55px;
-  right: 0;
+  justify-content: flex-start;
+  width: 100%;
 }
 
-.main-container .about-container .about_box-4 .about-text {
+.mission-text {
+  width: 100%;
+}
+
+.dots-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  line-height: 50px;
+  margin: 3.125rem auto 0 auto;
 }
 
-.main-container .metric-content {
+.about_us_dots {
+  width: 150px;
+}
+
+.main-about-pride-box2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 70%;
-  height: 140px;
-  font-size: 35px;
+  justify-content: center;
   font-weight: 300;
-  margin-top: 100px;
-  letter-spacing: 1.28px;
-}
-
-.main-container .metric-content .metric-1 {
+  font-size: 11px;
   width: 100%;
-  line-height: 45px;
+  position: relative;
 }
 
-.main-container .metric-article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  height: 360px;
-  margin-top: 22px;
-}
-
-.main-container .metric-article .metric-01 {
+.dots-text-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 80%;
-  height: 100%;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+.main-about-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 840px;
+  height: 200px;
+  margin: 6.125rem auto 0 auto;
+  background-color: #291346;
+}
+
+.main-about-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   font-size: 12px;
+  margin-left: 44px;
 }
 
-.main-container .metric-article .metric-01 .met-1 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+.main-about-foot-text1 {
+  margin: 0px 0px 6px;
   width: 100%;
-  height: 31px;
+}
+
+.main-about-foot-text {
+  margin: 0px 0px 4px;
+  width: 100%;
+}
+
+.contactus-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
   font-size: 12px;
-  line-height: 20px;
-  text-align: center;
+  color: #ca05cb;
+}
+.main-about-foot-text2 {
+  margin-left: 4px;
 }
 
-.main-container .metric-article .metric-01 .met-1 .met-02 {
-  height: 41px;
-  line-height: 20px;
-}
-
-.main-container .metric-article .metric-01 .met-1 .met-02 .text-01 {
-  margin-right: 20px;
-}
-
-.main-container .metric-article .metric-01 .met-1 .met-02 .line-02 {
-  width: 50px;
-}
-
-.main-container .metric-article .metric-01 .met-1 .content-h1 {
+.main-about-container2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 5px;
-}
-
-.main-container .metric-article .metric-01 .met-1 .content-h1 .text-02 {
-  text-align: center;
-  font-size: 16px;
-}
-
-.main-container .metric-article .metric-01 .met-01 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  height: 100%;
-  line-height: 25px;
-  font-weight: 300;
-}
-
-.main-container .metric-article .metric-01 .met-01 .met-text {
   width: 100%;
 }
 
-.main-container .contact-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 90%;
-  height: 163px;
-}
-
-.main-container .contact-container .metro {
-  display: flex;
-  justify-content: flex-start;
+.about_us_blog {
   width: 100%;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.main-container .contact-container .metro-text {
-  font-weight: 300;
-}
-
-.main-container .contact-container .metro-01 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  font-size: 14px;
-  font-weight: 300;
-  height: 50px;
-  line-height: 25px;
-}
-
-.main-container .contact-container .metro-02 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 12px;
-  width: 100%;
-  color: #DD03DB;
-}
-
-.main-container .contact-container .metro-02 .faArrrow {
-  margin-left: 5px;
+  height: 200px;
 }

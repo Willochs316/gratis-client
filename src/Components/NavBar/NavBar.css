@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  /* position: absolute; */
+}
+
+.navbar .metric {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 351px;
+  line-height: 27px;
+  color: #ffffff;
+  font-size: 12px;
+  margin-right: 50px;
+  opacity: 1;
+}
+
+.navbar .link-container .ab-blog {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  height: 25px;
+  cursor: pointer;
+}
+
+.navbar .link-container .contact-btn {
+  outline: 0;
+  border: 0;
+  background: #2563eb;
+  padding: 0 0.5rem;
+  border-radius: 51px;
+  width: 110px;
+  height: 45px;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+}

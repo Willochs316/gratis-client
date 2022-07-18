@@ -3,7 +3,7 @@ const Paragraph = ({ className, title, text, content }) => {
     <>
       <h2 className={className}>{content}</h2>
       <p className={className}>{title}</p>
-      <span>{text}</span>
+      <span className={className}>{text}</span>
     </>
   );
 };
